@@ -1,8 +1,127 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "User": [
+    {
+    "password": "hashedPassword123",
+    "mail": "alice.smith@example.com",
+    "pseudo": "alice89",
+    "name": "Smith",
+    "firstname": "Alice",
+    "phone_number": "+1987654321",
+    "favorite_town": "Los Angeles",
+    "delivery_address": "456 Oak St, Apt 2",
+    "dark_mode": true,
+    "profile_picture": "base64encodedstringofimage...",
+    "connectionId": "xyz987abc123",
+    "friends": [],
+    "friends_request_pending": [],
+    "friends_request_on_hold": [],
+    "allergens_list": ["peanuts", "shellfish"],
+    "fidelity_points": 100,
+    "orders_list": ["order123", "order456"],
+    "restaurants_liked": ["restaurant789", "restaurant012"],
+    "A2F_activated": true,
+    "A2F_autenticator": "authenticator123",
+    "A2F_method": "email",
+    "recommandation": {
+      "create": {}
+    }
+  },
+  {
+    "password": "hashedPassword456",
+    "mail": "bob.jones@example.com",
+    "pseudo": "bobjones",
+    "name": "Jones",
+    "firstname": "Bob",
+    "phone_number": "+1654321879",
+    "favorite_town": "Chicago",
+    "dark_mode": false,
+    "connectionId": "123xyz789abc",
+    "friends": [],
+    "friends_request_pending": ["alice89", "david456"],
+    "friends_request_on_hold": [],
+    "allergens_list": [],
+    "fidelity_points": 50,
+    "orders_list": [],
+    "restaurants_liked": ["restaurant456"],
+    "A2F_activated": false,
+    "A2F_autenticator": "",
+    "A2F_method": "",
+    "recommandation": {
+      "create": {}
+    }
+  },
+  {
+    "password": "hashedPassword789",
+    "mail": "charlie.brown@example.com",
+    "pseudo": "charliebrown",
+    "name": "Brown",
+    "firstname": "Charlie",
+    "phone_number": "+1234567890",
+    "favorite_town": "Houston",
+    "dark_mode": true,
+    "connectionId": "456abc789xyz",
+    "friends": ["alice89"],
+    "friends_request_pending": [],
+    "friends_request_on_hold": [],
+    "allergens_list": ["dairy", "gluten"],
+    "fidelity_points": 75,
+    "orders_list": ["order789"],
+    "restaurants_liked": ["restaurant123", "restaurant789"],
+    "A2F_activated": true,
+    "A2F_autenticator": "authenticator456",
+    "A2F_method": "sms",
+    "recommandation": {
+      "create": {}
+    }
+  },
+  {
+    "password": "hashedPassword321",
+    "mail": "david.wilson@example.com",
+    "pseudo": "davidwilson",
+    "name": "Wilson",
+    "firstname": "David",
+    "phone_number": "+1765432109",
+    "favorite_town": "Miami",
+    "dark_mode": false,
+    "connectionId": "789xyz123abc",
+    "friends": ["bob123"],
+    "friends_request_pending": [],
+    "friends_request_on_hold": ["charliebrown"],
+    "allergens_list": ["eggs"],
+    "fidelity_points": 25,
+    "orders_list": ["order234"],
+    "restaurants_liked": ["restaurant456"],
+    "A2F_activated": true,
+    "A2F_autenticator": "authenticator789",
+    "A2F_method": "phone",
+    "recommandation": {
+      "create": {}
+    }
+  },
+  {
+    "password": "hashedPassword654",
+    "mail": "emma.davis@example.com",
+    "pseudo": "emmadavis",
+    "name": "Davis",
+    "firstname": "Emma",
+    "phone_number": "+1876543210",
+    "favorite_town": "San Francisco",
+    "dark_mode": true,
+    "connectionId": "def456uvw789",
+    "friends": ["charlie456"],
+    "friends_request_pending": [],
+    "friends_request_on_hold": [],
+    "allergens_list": [],
+    "fidelity_points": 150,
+    "orders_list": ["order567", "order890"],
+    "restaurants_liked": ["restaurant789", "restaurant012"],
+    "A2F_activated": false,
+    "A2F_autenticator": "",
+    "A2F_method": "",
+    "recommandation": {
+      "create": {}
+    }
+  }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
