@@ -1,180 +1,334 @@
 {
   "User": [
     {
-    "password": "hashedPassword123",
-    "mail": "alice.smith@example.com",
-    "pseudo": "alice89",
-    "name": "Smith",
-    "firstname": "Alice",
-    "phone_number": "+1987654321",
-    "favorite_town": "Los Angeles",
-    "delivery_address": "456 Oak St, Apt 2",
-    "dark_mode": true,
-    "profile_picture": "base64encodedstringofimage...",
-    "connectionId": "xyz987abc123",
-    "friends": [],
-    "friends_request_pending": [],
-    "friends_request_on_hold": [],
-    "allergens_list": ["peanuts", "shellfish"],
-    "fidelity_points": 100,
-    "orders_list": ["order123", "order456"],
-    "restaurants_liked": ["restaurant789", "restaurant012"],
-    "A2F_activated": true,
-    "A2F_autenticator": "authenticator123",
-    "A2F_method": "email",
-    "recommandation": {
-      "create": {}
+      "password": "hashedPassword1",
+      "mail": "john.doe@example.com",
+      "pseudo": "FoodLover1",
+      "name": "Doe",
+      "firstname": "John",
+      "phone_number": "0123456789",
+      "favorite_town": "Paris",
+      "delivery_address": "123 Main St, Paris, 75001",
+      "dark_mode": false,
+      "profile_picture": "null",
+      "connectionId": "user101",
+      "friends": [102, 103],
+      "friends_request_pending": [],
+      "friends_request_on_hold": [],
+      "allergens_list": [1, 3],
+      "fidelity_points": 150,
+      "orders_list": [1, 3],
+      "restaurants_liked": [201, 203],
+      "A2F_activated": true,
+      "A2F_autenticator": "",
+      "A2F_method": "",
+      "recommandation": {
+        "create": {}
+      }
+    },
+    {
+      "password": "hashedPassword2",
+      "mail": "jane.smith@example.com",
+      "pseudo": "GourmetGal",
+      "name": "Smith",
+      "firstname": "Jane",
+      "phone_number": "9876543210",
+      "favorite_town": "Lyon",
+      "delivery_address": "456 Oak Ave, Lyon, 69001",
+      "dark_mode": true,
+      "profile_picture": "resr",
+      "connectionId": "user102",
+      "friends": [101],
+      "friends_request_pending": [],
+      "friends_request_on_hold": [],
+      "allergens_list": [2],
+      "fidelity_points": 75,
+      "orders_list": [2],
+      "restaurants_liked": [202],
+      "A2F_activated": false,
+      "A2F_autenticator": "",
+      "A2F_method": "",
+      "recommandation": {
+        "create": {}
+      }
     }
-  },
-  {
-    "password": "hashedPassword456",
-    "mail": "bob.jones@example.com",
-    "pseudo": "bobjones",
-    "name": "Jones",
-    "firstname": "Bob",
-    "phone_number": "+1654321879",
-    "favorite_town": "Chicago",
-    "dark_mode": false,
-    "connectionId": "123xyz789abc",
-    "friends": [],
-    "friends_request_pending": ["alice89", "david456"],
-    "friends_request_on_hold": [],
-    "allergens_list": [],
-    "fidelity_points": 50,
-    "orders_list": [],
-    "restaurants_liked": ["restaurant456"],
-    "A2F_activated": false,
-    "A2F_autenticator": "",
-    "A2F_method": "",
-    "recommandation": {
-      "create": {}
-    }
-  },
-  {
-    "password": "hashedPassword789",
-    "mail": "charlie.brown@example.com",
-    "pseudo": "charliebrown",
-    "name": "Brown",
-    "firstname": "Charlie",
-    "phone_number": "+1234567890",
-    "favorite_town": "Houston",
-    "dark_mode": true,
-    "connectionId": "456abc789xyz",
-    "friends": ["alice89"],
-    "friends_request_pending": [],
-    "friends_request_on_hold": [],
-    "allergens_list": ["dairy", "gluten"],
-    "fidelity_points": 75,
-    "orders_list": ["order789"],
-    "restaurants_liked": ["restaurant123", "restaurant789"],
-    "A2F_activated": true,
-    "A2F_autenticator": "authenticator456",
-    "A2F_method": "sms",
-    "recommandation": {
-      "create": {}
-    }
-  },
-  {
-    "password": "hashedPassword321",
-    "mail": "david.wilson@example.com",
-    "pseudo": "davidwilson",
-    "name": "Wilson",
-    "firstname": "David",
-    "phone_number": "+1765432109",
-    "favorite_town": "Miami",
-    "dark_mode": false,
-    "connectionId": "789xyz123abc",
-    "friends": ["bob123"],
-    "friends_request_pending": [],
-    "friends_request_on_hold": ["charliebrown"],
-    "allergens_list": ["eggs"],
-    "fidelity_points": 25,
-    "orders_list": ["order234"],
-    "restaurants_liked": ["restaurant456"],
-    "A2F_activated": true,
-    "A2F_autenticator": "authenticator789",
-    "A2F_method": "phone",
-    "recommandation": {
-      "create": {}
-    }
-  },
-  {
-    "password": "hashedPassword654",
-    "mail": "emma.davis@example.com",
-    "pseudo": "emmadavis",
-    "name": "Davis",
-    "firstname": "Emma",
-    "phone_number": "+1876543210",
-    "favorite_town": "San Francisco",
-    "dark_mode": true,
-    "connectionId": "def456uvw789",
-    "friends": ["charlie456"],
-    "friends_request_pending": [],
-    "friends_request_on_hold": [],
-    "allergens_list": [],
-    "fidelity_points": 150,
-    "orders_list": ["order567", "order890"],
-    "restaurants_liked": ["restaurant789", "restaurant012"],
-    "A2F_activated": false,
-    "A2F_autenticator": "",
-    "A2F_method": "",
-    "recommandation": {
-      "create": {}
-    }
-  }
   ],
-  "orders":[
-  {
-    "orderId": "LILLE001",
-    "latitude": 50.6365654,
-    "longitude": 3.0635282
-  },
-  {
-    "orderId": "LILLE002",
-    "latitude": 50.6292802,
-    "longitude": 3.0573928
-  },
-  {
-    "orderId": "LILLE003",
-    "latitude": 50.6371834,
-    "longitude": 3.0514705
-  },
-  {
-    "orderId": "LILLE004",
-    "latitude": 50.6311407,
-    "longitude": 3.0599615
-  },
-  {
-    "orderId": "LILLE005",
-    "latitude": 50.6267967,
-    "longitude": 3.0679652
-  },
-  {
-    "orderId": "LILLE006",
-    "latitude": 50.6333653,
-    "longitude": 3.0203102
-  },
-  {
-    "orderId": "LILLE007",
-    "latitude": 50.6416366,
-    "longitude": 3.0770336
-  },
-  {
-    "orderId": "LILLE008",
-    "latitude": 50.6225989,
-    "longitude": 3.0487452
-  },
-  {
-    "orderId": "LILLE009",
-    "latitude": 50.6390265,
-    "longitude": 3.0445283
-  },
-  {
-    "orderId": "LILLE010",
-    "latitude": 50.6250451,
-    "longitude": 3.0188082
-  }
-]
-  
-  
+  "orders": [
+    {
+      "orderId": "LILLE001",
+      "latitude": 50.6365654,
+      "longitude": 3.0635282,
+      "user_id": 101,
+      "restaurant_id": 201,
+      "deliveryPerson_id": 301,
+      "ordered_items": "1x Burger, 1x Fries, 1x Coke",
+      "price": 15.99,
+      "pending": false,
+      "delivered": true,
+      "ordered_time": "2023-06-30T12:30:00Z",
+      "delivered_time": "2023-06-30T13:15:00Z",
+      "reduction": "SUMMER10",
+      "order_recovered": 1
+    },
+    {
+      "orderId": "LILLE002",
+      "latitude": 50.6292802,
+      "longitude": 3.0573928,
+      "user_id": 102,
+      "restaurant_id": 202,
+      "deliveryPerson_id": 302,
+      "ordered_items": "2x Pizza, 1x Salad",
+      "price": 25.50,
+      "pending": true,
+      "delivered": false,
+      "ordered_time": "2023-06-30T18:45:00Z",
+      "delivered_time": null,
+      "reduction": null,
+      "order_recovered": 0
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 201,
+      "name": "Pizza Palace",
+      "connection_id": "rest201",
+      "password": "hashedPassword3",
+      "dishes_list": [1, 3, 5],
+      "phone_number": "1234567890",
+      "address": "789 Pizza St, New York, NY 10001",
+      "orders_list": [1, 3],
+      "desserts_list": [1, 2],
+      "drinks_list": [1, 2],
+      "assortments_list": [1],
+      "starters_list": [1, 2],
+      "reviews_list": [1, 3]
+    },
+    {
+      "id": 202,
+      "name": "Burger Barn",
+      "connection_id": "rest202",
+      "password": "hashedPassword4",
+      "dishes_list": [2, 4, 6],
+      "phone_number": "9876543210",
+      "address": "456 Burger Ave, Los Angeles, CA 90001",
+      "orders_list": [2, 4],
+      "desserts_list": [3, 4],
+      "drinks_list": [3, 4],
+      "assortments_list": [2],
+      "starters_list": [3, 4],
+      "reviews_list": [2, 4]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "deliveryP_id": 301,
+      "user_id": 101,
+      "restaurant_id": 201,
+      "message": "Great service and delicious food!"
+    },
+    {
+      "id": 2,
+      "deliveryP_id": 302,
+      "user_id": 102,
+      "restaurant_id": 202,
+      "message": "Delivery was a bit late, but food was good."
+    }
+  ],
+  "dishes": [
+    {
+      "id": 1,
+      "dish_name": "Margherita Pizza",
+      "ingredients": ["Dough", "Tomato Sauce", "Mozzarella", "Basil"],
+      "price": 12.99,
+      "allergens_list": [1, 2],
+      "picture_link": "http://example.com/margherita.jpg"
+    },
+    {
+      "id": 2,
+      "dish_name": "Chicken Caesar Salad",
+      "ingredients": ["Chicken", "Lettuce", "Croutons", "Caesar Dressing"],
+      "price": 9.99,
+      "allergens_list": [3, 4],
+      "picture_link": "http://example.com/caesar_salad.jpg"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "menu_name": "Italian Feast",
+      "restaurant_id": 201,
+      "dishes_list": [1, 3],
+      "starters_list": [1],
+      "desserts_list": [1],
+      "drinks_list": [1, 2]
+    },
+    {
+      "id": 2,
+      "menu_name": "American Classic",
+      "restaurant_id": 202,
+      "dishes_list": [2, 4],
+      "starters_list": [3],
+      "desserts_list": [3],
+      "drinks_list": [3, 4]
+    }
+  ],
+  "desserts": [
+    {
+      "id": 1,
+      "name": "Tiramisu",
+      "price": 6.99,
+      "picture_link": "http://example.com/tiramisu.jpg",
+      "ingredients_list": ["Ladyfingers", "Coffee", "Mascarpone", "Cocoa"],
+      "id_restaurant": 201,
+      "allergens_list": [1, 2, 3]
+    },
+    {
+      "id": 2,
+      "name": "Apple Pie",
+      "price": 5.99,
+      "picture_link": "http://example.com/apple_pie.jpg",
+      "ingredients_list": ["Apples", "Flour", "Sugar", "Cinnamon"],
+      "id_restaurant": 202,
+      "allergens_list": [1, 4]
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "name": "Cola",
+      "size": "Medium",
+      "price": 2.50,
+      "picture_link": "http://example.com/cola.jpg",
+      "ingredients_list": ["Carbonated Water", "Sugar", "Caramel Color", "Phosphoric Acid"],
+      "id_restaurant": 201,
+      "allergens_list": []
+    },
+    {
+      "id": 2,
+      "name": "Orange Juice",
+      "size": "Large",
+      "price": 3.00,
+      "picture_link": "http://example.com/orange_juice.jpg",
+      "ingredients_list": ["Orange"],
+      "id_restaurant": 202,
+      "allergens_list": []
+    }
+  ],
+  "deliveries": [
+    {
+      "id": 1,
+      "deliveryP_id": 301,
+      "order_id": 1,
+      "user_id": 101,
+      "delivery_address": "123 Main St, New York, NY 10001",
+      "delivery_started": "2023-06-30T12:45:00Z",
+      "delivery_ended": "2023-06-30T13:15:00Z",
+      "distance": "3.5"
+    },
+    {
+      "id": 2,
+      "deliveryP_id": 302,
+      "order_id": 2,
+      "user_id": 102,
+      "delivery_address": "456 Oak Ave, Los Angeles, CA 90001",
+      "delivery_started": "2023-06-30T19:00:00Z",
+      "delivery_ended": null,
+      "distance": "2.8"
+    }
+  ],
+  "starters": [
+    {
+      "id": 1,
+      "name": "Garlic Bread",
+      "price": 4.99,
+      "picture_link": "http://example.com/garlic_bread.jpg",
+      "ingredients": ["Bread", "Garlic", "Butter", "Parsley"],
+      "restaurant_id": 201,
+      "allergens_list": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Mozzarella Sticks",
+      "price": 6.99,
+      "picture_link": "http://example.com/mozzarella_sticks.jpg",
+      "ingredients": ["Mozzarella", "Breadcrumbs", "Eggs", "Marinara Sauce"],
+      "restaurant_id": 202,
+      "allergens_list": [1, 2, 3]
+    }
+  ],
+  "promotionCodes": [
+    {
+      "id": 1,
+      "name": "SUMMER10",
+      "start_date": "2023-06-01T00:00:00Z",
+      "expiry_date": "2023-08-31T23:59:59Z",
+      "percentage_reduction": 0.10,
+      "limite_use": 1000
+    },
+    {
+      "id": 2,
+      "name": "NEWUSER20",
+      "start_date": "2023-01-01T00:00:00Z",
+      "expiry_date": "2023-12-31T23:59:59Z",
+      "percentage_reduction": 0.20,
+      "limite_use": 500
+    }
+  ],
+  "assortments": [
+    {
+      "id": 1,
+      "name": "Party Platter",
+      "price": 29.99,
+      "picture_link": "http://example.com/party_platter.jpg",
+      "ingredients_list": ["Chicken Wings", "Mozzarella Sticks", "Onion Rings", "Dipping Sauces"],
+      "id_restaurant": 201,
+      "allergens_list": [1, 2, 3, 4]
+    },
+    {
+      "id": 2,
+      "name": "Veggie Delight",
+      "price": 24.99,
+      "picture_link": "http://example.com/veggie_delight.jpg",
+      "ingredients_list": ["Carrot Sticks", "Celery Sticks", "Cherry Tomatoes", "Hummus"],
+      "id_restaurant": 202,
+      "allergens_list": [5]
+    }
+  ],
+  "allergens": [
+    {
+      "id": 1,
+      "name": "Gluten"
+    },
+    {
+      "id": 2,
+      "name": "Dairy"
+    }
+  ],
+  "deliveryPersons": [
+    {
+      "id": 301,
+      "connection_id": "deliv301",
+      "password": "hashedPassword5",
+      "name": "Johnson",
+      "firstname": "Mike",
+      "phone_number": "5551234567",
+      "profile_picture": "Buffer.from()",
+      "average_review": 4.7,
+      "reviews_list": [1, 3, 5],
+      "orders_list": [1, 3, 5]
+    },
+    {
+      "id": 302,
+      "connection_id": "deliv302",
+      "password": "hashedPassword6",
+      "name": "Williams",
+      "firstname": "Sarah",
+      "phone_number": "5559876543",
+      "profile_picture": "Buffer",
+      "average_review": 4.5,
+      "reviews_list": [2, 4, 6],
+      "orders_list": [2, 4, 6]
+    }
+  ]
 }
